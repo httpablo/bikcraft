@@ -12,7 +12,7 @@
 }
 
 .seguros h2 {
-  grid-template-columns: 1/-1;
+  grid-column: 1/-1;
 }
 
 .seguros-item {
@@ -60,7 +60,6 @@
 .seguros-item a {
   grid-column: 1/-1;
 }
-
 
 @media (max-width: 800px) {
   .seguros {
